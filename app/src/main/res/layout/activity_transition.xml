@@ -20,6 +20,13 @@
         android:onClick="go"
         android:text="normal" />
 
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="go"
+        android:text="next" />
+
     <EditText
         android:id="@+id/inputText"
         android:layout_width="match_parent"

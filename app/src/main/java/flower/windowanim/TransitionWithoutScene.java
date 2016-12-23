@@ -1,6 +1,7 @@
 package flower.windowanim;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -68,6 +69,11 @@ public class TransitionWithoutScene extends AppCompatActivity {
                 TextView textView2 = new TextView(this);
                 textView2.setText("Lable2");
                 mainLayout.addView(textView2);
+                break;
+
+            case R.id.btn_next:
+                Intent i =  new Intent(this,CircularRevealActivity.class);
+                startActivity(i);
                 break;
         }
 
